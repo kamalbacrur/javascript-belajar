@@ -15,3 +15,12 @@ function panggilexpress(value) {
     console.log(str.search(/F/i))
 }
 panggilexpress() 
+
+function match(value) {
+    
+    let str = "abcdefghijklmnopqrstuvwxyz-abcdefghijklmnopqrstuvwxyz"
+    // didalam fungsi match mempunyai fungsi output untuk mengetahui indexnya dan iputan nya serta groupsnya
+    console.log(str.match(/c/))
+    console.log(str.match(/C/,/c/))
+}
+match()
