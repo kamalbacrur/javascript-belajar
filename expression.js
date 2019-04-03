@@ -1,3 +1,4 @@
+// mencari index nya dari variabel str namun tidak bisa mencari dengan huruf selain yang ada di var nya(tidak boleh besar hurufnya,nanti akan error)
 function regularExpress(value) {
     let str = "abcdefghijklmnopqrstuvwxyz"
 
@@ -7,8 +8,9 @@ console.log(regularExpress())
 
 function panggilexpress(value) {
     let str = "abcdefghijklmnopqrstuvwxyz"
-
+    // tanpa menambahkan flag 
     console.log(str.search(/C/))
+    // menambahkan flag 
     console.log(str.search(/R/i))
     console.log(str.search(/F/i))
 }
